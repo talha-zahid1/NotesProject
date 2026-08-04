@@ -1,16 +1,39 @@
-# React + Vite
+# Notes Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight React notes app for creating and viewing short notes in a sticky-note style interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add a note title and details through a simple form
+- View submitted notes in a responsive, scrollable layout
+- Sticky-note card styling
+- Delete controls for individual notes
 
-## React Compiler
+> Notes are stored in React state, so they reset when the page is refreshed.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting started
+
+Prerequisites: Node.js 18 or later and npm.
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite in your browser (usually `http://localhost:5173`).
+
+## Available scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the Vite development server. |
+| `npm run build` | Create a production build. |
+| `npm run preview` | Preview the production build locally. |
+| `npm run lint` | Run ESLint checks. |
